@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumos de Física - Ensino Médio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        .content {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .activity {
+            background-color: #eef;
+            padding: 15px;
+            margin-top: 15px;
+            border-left: 5px solid #007bff;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Resumos de Física - Ensino Médio</h1>
+
+        <div class="content">
+            <h2>Aula 01 - Cinemática I</h2>
+            <p>A cinemática é a parte da mecânica que estuda o movimento dos corpos sem se preocupar com suas causas. Na cinemática I, focamos em conceitos como trajetória, velocidade e aceleração.</p>
+            <div class="activity">
+                <h3>Atividade de Exemplo:</h3>
+                <p>Um carro percorre uma trajetória retilínea de 100 km em 2 horas. Qual foi sua velocidade média?</p>
+                <button onclick="showAnswer1()">Ver Resposta</button>
+                <p id="answer1" style="display:none;">Velocidade média = 100 km / 2 h = 50 km/h</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>Aula 05 - Cinemática V</h2>
+            <p>A continuação do estudo da cinemática introduz a análise vetorial do movimento e o conceito de movimento em duas dimensões, como no caso de projéteis.</p>
+            <div class="activity">
+                <h3>Atividade de Exemplo:</h3>
+                <p>Um projétil é lançado com velocidade inicial de 20 m/s a um ângulo de 30º. Qual é o alcance horizontal do projétil?</p>
+                <button onclick="showAnswer2()">Ver Resposta</button>
+                <p id="answer2" style="display:none;">Utilizando a fórmula do alcance: A = (v₀² * sen(2θ)) / g = (20² * sen(60º)) / 9,8 ≈ 35,3 m</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>Aula 06 - Movimento Uniforme I</h2>
+            <p>Movimento uniforme ocorre quando a velocidade do corpo permanece constante ao longo do tempo. Nesse caso, não há aceleração.</p>
+            <div class="activity">
+                <h3>Atividade de Exemplo:</h3>
+                <p>Uma pessoa anda a uma velocidade constante de 4 m/s. Quanto tempo ela levará para percorrer uma distância de 1 km?</p>
+                <button onclick="showAnswer3()">Ver Resposta</button>
+                <p id="answer3" style="display:none;">Tempo = distância / velocidade = 1000 m / 4 m/s = 250 s (ou 4 minutos e 10 segundos).</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>Aula 08 - Movimento Uniformemente Variado I</h2>
+            <p>O movimento uniformemente variado é aquele em que a aceleração é constante. A principal equação desse movimento é: v = v₀ + at.</p>
+            <div class="activity">
+                <h3>Atividade de Exemplo:</h3>
+                <p>Um carro parte do repouso com aceleração constante de 2 m/s². Qual será sua velocidade após 5 segundos?</p>
+                <button onclick="showAnswer4()">Ver Resposta</button>
+                <p id="answer4" style="display:none;">v = v₀ + at = 0 + 2 * 5 = 10 m/s.</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>Aula 10 - Queda Livre I</h2>
+            <p>Queda livre é o movimento de um corpo sob a ação exclusiva da gravidade. A aceleração da gravidade na Terra é aproximadamente 9,8 m/s².</p>
+            <div class="activity">
+                <h3>Atividade de Exemplo:</h3>
+                <p>Qual a velocidade de uma pedra após cair por 3 segundos em queda livre?</p>
+                <button onclick="showAnswer5()">Ver Resposta</button>
+                <p id="answer5" style="display:none;">v = v₀ + gt = 0 + 9,8 * 3 = 29,4 m/s.</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>Aula 12 - Lançamento de Projéteis</h2>
+            <p>O lançamento de projéteis é um exemplo de movimento em duas dimensões, onde o corpo segue uma trajetória parabólica devido à ação da gravidade.</p>
+            <div class="activity">
+                <h3>Atividade de Exemplo:</h3>
+                <p>Um projétil é lançado horizontalmente com velocidade de 10 m/s de uma altura de 45 metros. Qual será o tempo até atingir o solo?</p>
+                <button onclick="showAnswer6()">Ver Resposta</button>
+                <p id="answer6" style="display:none;">Usando a fórmula de queda livre: t = √(2h/g) ≈ √(2 * 45 / 9,8) ≈ 3,03 s.</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>Aula 13 - Movimento Circular I</h2>
+            <p>No movimento circular, um corpo se move em uma trajetória circular com uma velocidade angular constante. A velocidade linear depende do raio da trajetória.</p>
+            <div class="activity">
+                <h3>Atividade de Exemplo:</h3>
+                <p>Um objeto está girando em um círculo com raio de 2 metros e velocidade angular de 5 rad/s. Qual é sua velocidade linear?</p>
+                <button onclick="showAnswer7()">Ver Resposta</button>
+                <p id="answer7" style="display:none;">v = ω * r = 5 * 2 = 10 m/s.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showAnswer1() {
+            document.getElementById('answer1').style.display = 'block';
+        }
+        function showAnswer2() {
+            document.getElementById('answer2').style.display = 'block';
+        }
+        function showAnswer3() {
+            document.getElementById('answer3').style.display = 'block';
+        }
+        function showAnswer4() {
+            document.getElementById('answer4').style.display = 'block';
+        }
+        function showAnswer5() {
+            document.getElementById('answer5').style.display = 'block';
+        }
+        function showAnswer6() {
+            document.getElementById('answer6').style.display = 'block';
+        }
+        function showAnswer7() {
+            document.getElementById('answer7').style.display = 'block';
+        }
+    </script>
+</body>
+</html>

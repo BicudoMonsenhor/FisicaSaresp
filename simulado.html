@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulado de Física</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .question-block {
+            margin-bottom: 30px;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+        .question-block h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .question {
+            margin-bottom: 10px;
+        }
+        .answers {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .answers li {
+            margin-bottom: 5px;
+        }
+        .reveal-answer {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .answer-detail {
+            display: none;
+            margin-top: 10px;
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-left: 5px solid #4CAF50;
+        }
+        .login-form {
+            display: none;
+            margin-top: 10px;
+        }
+        .login-form input[type="password"] {
+            padding: 5px;
+            margin-right: 10px;
+        }
+        .login-form input[type="submit"] {
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Simulado de Física - Múltipla Escolha</h1>
+
+<!-- Cinemática I -->
+<div class="question-block">
+    <h3>Aula 01 - Cinemática I</h3>
+    <div class="question">
+        <p>1. Um carro se desloca com velocidade constante de 20 m/s. Qual a distância percorrida em 5 segundos?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q1" value="A"> A) 50 m</li>
+            <li><input type="radio" name="q1" value="B"> B) 100 m</li>
+            <li><input type="radio" name="q1" value="C"> C) 80 m</li>
+            <li><input type="radio" name="q1" value="D"> D) 120 m</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> B) 100 m</p>
+        <p>A distância percorrida é calculada pela fórmula <em>d = v × t</em>, onde v é a velocidade e t o tempo. Assim, d = 20 m/s × 5 s = 100 m.</p>
+    </div>
+</div>
+
+<div class="question-block">
+    <div class="question">
+        <p>2. Um objeto parte do repouso e acelera uniformemente a 3 m/s². Qual será sua velocidade após 4 segundos?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q2" value="A"> A) 12 m/s</li>
+            <li><input type="radio" name="q2" value="B"> B) 15 m/s</li>
+            <li><input type="radio" name="q2" value="C"> C) 10 m/s</li>
+            <li><input type="radio" name="q2" value="D"> D) 8 m/s</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> A) 12 m/s</p>
+        <p>A velocidade é calculada pela fórmula <em>v = v₀ + at</em>. Como o objeto parte do repouso, v₀ = 0, então v = 0 + 3 m/s² × 4 s = 12 m/s.</p>
+    </div>
+</div>
+
+<!-- Movimento Uniforme I -->
+<div class="question-block">
+    <h3>Aula 06 - Movimento Uniforme I</h3>
+    <div class="question">
+        <p>1. Um ciclista se move com uma velocidade de 10 m/s. Quanto tempo levará para percorrer 100 metros?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q3" value="A"> A) 5 segundos</li>
+            <li><input type="radio" name="q3" value="B"> B) 10 segundos</li>
+            <li><input type="radio" name="q3" value="C"> C) 20 segundos</li>
+            <li><input type="radio" name="q3" value="D"> D) 30 segundos</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> B) 10 segundos</p>
+        <p>O tempo é calculado pela fórmula <em>t = d/v</em>. Assim, t = 100 m / 10 m/s = 10 s.</p>
+    </div>
+</div>
+
+<div class="question-block">
+    <div class="question">
+        <p>2. Um veículo percorre uma distância de 200 metros em 20 segundos. Qual é a sua velocidade média?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q4" value="A"> A) 15 m/s</li>
+            <li><input type="radio" name="q4" value="B"> B) 10 m/s</li>
+            <li><input type="radio" name="q4" value="C"> C) 5 m/s</li>
+            <li><input type="radio" name="q4" value="D"> D) 20 m/s</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> B) 10 m/s</p>
+        <p>A velocidade média é dada pela fórmula <em>v = d/t</em>. Logo, v = 200 m / 20 s = 10 m/s.</p>
+    </div>
+</div>
+
+<!-- Movimento Uniformemente Variado I -->
+<div class="question-block">
+    <h3>Aula 08 - Movimento Uniformemente Variado I</h3>
+    <div class="question">
+        <p>1. Um objeto em movimento uniformemente variado acelera a 2 m/s² durante 6 segundos. Qual a distância percorrida?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q5" value="A"> A) 18 metros</li>
+            <li><input type="radio" name="q5" value="B"> B) 36 metros</li>
+            <li><input type="radio" name="q5" value="C"> C) 72 metros</li>
+            <li><input type="radio" name="q5" value="D"> D) 12 metros</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> C) 72 metros</p>
+        <p>A fórmula para a distância percorrida em MUV é <em>s = ½at²</em>. Logo, s = ½ × 2 m/s² × (6 s)² = 72 metros.</p>
+    </div>
+</div>
+
+<!-- Queda Livre I -->
+<div class="question-block">
+    <h3>Aula 10 - Queda Livre I</h3>
+    <div class="question">
+        <p>1. Um objeto é solto do repouso de uma altura de 45 metros. Qual é a velocidade com que atinge o solo?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q6" value="A"> A) 10 m/s</li>
+            <li><input type="radio" name="q6" value="B"> B) 15 m/s</li>
+            <li><input type="radio" name="q6" value="C"> C) 20 m/s</li>
+            <li><input type="radio" name="q6" value="D"> D) 30 m/s</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> D) 30 m/s</p>
+        <p>A velocidade final é calculada pela fórmula <em>v = √(2gh)</em>, onde g = 10 m/s² e h = 45 metros. Assim, v = √(2 × 10 m/s² × 45 m) = 30 m/s.</p>
+    </div>
+</div>
+
+<div class="question-block">
+    <div class="question">
+        <p>2. Um objeto é lançado para cima com uma velocidade de 20 m/s. Após quantos segundos ele atinge o ponto mais alto?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q7" value="A"> A) 1 segundo</li>
+            <li><input type="radio" name="q7" value="B"> B) 2 segundos</li>
+            <li><input type="radio" name="q7" value="C"> C) 3 segundos</li>
+            <li><input type="radio" name="q7" value="D"> D) 4 segundos</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> B) 2 segundos</p>
+        <p>O tempo para atingir o ponto mais alto é calculado pela fórmula <em>t = v₀ / g</em>. Assim, t = 20 m/s / 10 m/s² = 2 segundos.</p>
+    </div>
+</div>
+
+<!-- Lançamento de Projéteis -->
+<div class="question-block">
+    <h3>Aula 12 - Lançamento de Projéteis</h3>
+    <div class="question">
+        <p>1. Um projétil é lançado com uma velocidade inicial de 40 m/s num ângulo de 45º. Qual é o alcance horizontal?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q8" value="A"> A) 80 metros</li>
+            <li><input type="radio" name="q8" value="B"> B) 160 metros</li>
+            <li><input type="radio" name="q8" value="C"> C) 120 metros</li>
+            <li><input type="radio" name="q8" value="D"> D) 200 metros</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> B) 160 metros</p>
+        <p>O alcance é dado pela fórmula <em>R = v₀² sin(2θ) / g</em>. Para v₀ = 40 m/s e θ = 45º, R = 160 metros.</p>
+    </div>
+</div>
+
+<div class="question-block">
+    <div class="question">
+        <p>2. Qual é o tempo total de voo de um projétil lançado a 20 m/s num ângulo de 30º?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q9" value="A"> A) 2 segundos</li>
+            <li><input type="radio" name="q9" value="B"> B) 3 segundos</li>
+            <li><input type="radio" name="q9" value="C"> C) 4 segundos</li>
+            <li><input type="radio" name="q9" value="D"> D) 5 segundos</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> B) 3 segundos</p>
+        <p>O tempo de voo é calculado pela fórmula <em>t = 2v₀ sin(θ) / g</em>. Para v₀ = 20 m/s e θ = 30º, t = 3 segundos.</p>
+    </div>
+</div>
+
+<!-- Movimento Circular I -->
+<div class="question-block">
+    <h3>Aula 13 - Movimento Circular I</h3>
+    <div class="question">
+        <p>1. Um objeto em movimento circular uniforme completa uma volta em 10 segundos. Qual é sua velocidade angular?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q10" value="A"> A) 0,2 rad/s</li>
+            <li><input type="radio" name="q10" value="B"> B) 0,4 rad/s</li>
+            <li><input type="radio" name="q10" value="C"> C) 0,6 rad/s</li>
+            <li><input type="radio" name="q10" value="D"> D) 0,8 rad/s</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> B) 0,4 rad/s</p>
+        <p>A velocidade angular é dada por <em>ω = 2π / T</em>, onde T = 10 s. Logo, ω = 0,4 rad/s.</p>
+    </div>
+</div>
+
+<div class="question-block">
+    <div class="question">
+        <p>2. Qual é a aceleração centrípeta de um objeto que se move a 5 m/s numa trajetória circular de raio 10 metros?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q11" value="A"> A) 2 m/s²</li>
+            <li><input type="radio" name="q11" value="B"> B) 2,5 m/s²</li>
+            <li><input type="radio" name="q11" value="C"> C) 3 m/s²</li>
+            <li><input type="radio" name="q11" value="D"> D) 4 m/s²</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> B) 2,5 m/s²</p>
+        <p>A aceleração centrípeta é dada por <em>ac = v² / r</em>. Assim, ac = (5 m/s)² / 10 m = 2,5 m/s².</p>
+    </div>
+</div>
+
+<!-- Leis de Newton I -->
+<div class="question-block">
+    <h3>Aula 02 - Leis de Newton I</h3>
+    <div class="question">
+        <p>1. De acordo com a primeira lei de Newton, um corpo em repouso permanecerá em repouso, a menos que...</p>
+        <ul class="answers">
+            <li><input type="radio" name="q12" value="A"> A) Uma força resultante atue sobre ele</li>
+            <li><input type="radio" name="q12" value="B"> B) A gravidade atue sobre ele</li>
+            <li><input type="radio" name="q12" value="C"> C) Ele tenha massa suficiente</li>
+            <li><input type="radio" name="q12" value="D"> D) Ele esteja em movimento</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> A) Uma força resultante atue sobre ele</p>
+        <p>De acordo com a primeira lei de Newton (Lei da Inércia), um corpo permanece em seu estado de repouso ou movimento retilíneo uniforme a menos que uma força resultante atue sobre ele.</p>
+    </div>
+</div>
+
+<div class="question-block">
+    <div class="question">
+        <p>2. A segunda lei de Newton estabelece que a força resultante que age sobre um objeto é...</p>
+        <ul class="answers">
+            <li><input type="radio" name="q13" value="A"> A) Proporcional à sua massa</li>
+            <li><input type="radio" name="q13" value="B"> B) Proporcional à aceleração do objeto</li>
+            <li><input type="radio" name="q13" value="C"> C) O produto da massa do objeto pela aceleração</li>
+            <li><input type="radio" name="q13" value="D"> D) Inversamente proporcional à gravidade</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> C) O produto da massa do objeto pela aceleração</p>
+        <p>A segunda lei de Newton é expressa pela equação F = m × a, ou seja, a força resultante é o produto da massa do objeto pela aceleração que ele experimenta.</p>
+    </div>
+<!-- Leis de Newton II -->
+<div class="question-block">
+    <h3>Aula 03 - Leis de Newton II</h3>
+    <div class="question">
+        <p>1. Um carro com massa de 1000 kg acelera a 2 m/s². Qual é a força resultante que atua sobre o carro?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q14" value="A"> A) 500 N</li>
+            <li><input type="radio" name="q14" value="B"> B) 2000 N</li>
+            <li><input type="radio" name="q14" value="C"> C) 1000 N</li>
+            <li><input type="radio" name="q14" value="D"> D) 1500 N</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> B) 2000 N</p>
+        <p>A segunda lei de Newton é dada pela equação <em>F = m × a</em>. Assim, F = 1000 kg × 2 m/s² = 2000 N.</p>
+    </div>
+</div>
+
+<div class="question-block">
+    <div class="question">
+        <p>2. Qual é a aceleração de um corpo de 10 kg quando submetido a uma força resultante de 50 N?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q15" value="A"> A) 5 m/s²</li>
+            <li><input type="radio" name="q15" value="B"> B) 10 m/s²</li>
+            <li><input type="radio" name="q15" value="C"> C) 2 m/s²</li>
+            <li><input type="radio" name="q15" value="D"> D) 50 m/s²</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> A) 5 m/s²</p>
+        <p>A aceleração é calculada pela fórmula <em>a = F / m</em>. Assim, a = 50 N / 10 kg = 5 m/s².</p>
+    </div>
+</div>
+
+<!-- Leis de Newton III -->
+<div class="question-block">
+    <h3>Aula 04 - Leis de Newton III</h3>
+    <div class="question">
+        <p>1. De acordo com a terceira lei de Newton, quando você empurra uma parede, a parede...</p>
+        <ul class="answers">
+            <li><input type="radio" name="q16" value="A"> A) Não exerce nenhuma força</li>
+            <li><input type="radio" name="q16" value="B"> B) Exerce uma força maior sobre você</li>
+            <li><input type="radio" name="q16" value="C"> C) Exerce uma força igual e oposta sobre você</li>
+            <li><input type="radio" name="q16" value="D"> D) Exerce uma força menor sobre você</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> C) Exerce uma força igual e oposta sobre você</p>
+        <p>A terceira lei de Newton afirma que para toda ação existe uma reação de igual magnitude e em sentido oposto.</p>
+    </div>
+</div>
+
+<div class="question-block">
+    <div class="question">
+        <p>2. Quando você salta de um barco em repouso, ele se move para trás. Isso é um exemplo de qual lei de Newton?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q17" value="A"> A) Primeira lei de Newton</li>
+            <li><input type="radio" name="q17" value="B"> B) Segunda lei de Newton</li>
+            <li><input type="radio" name="q17" value="C"> C) Terceira lei de Newton</li>
+            <li><input type="radio" name="q17" value="D"> D) Lei da gravidade</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> C) Terceira lei de Newton</p>
+        <p>Quando você salta do barco, exerce uma força sobre ele, e o barco reage com uma força de igual magnitude e sentido oposto.</p>
+    </div>
+</div>
+
+<!-- Forças I -->
+<div class="question-block">
+    <h3>Aula 05 - Forças I</h3>
+    <div class="question">
+        <p>1. A força de atrito entre dois corpos depende de qual fator?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q18" value="A"> A) Velocidade relativa</li>
+            <li><input type="radio" name="q18" value="B"> B) Massa</li>
+            <li><input type="radio" name="q18" value="C"> C) Natureza das superfícies em contato</li>
+            <li><input type="radio" name="q18" value="D"> D) Área de contato</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> C) Natureza das superfícies em contato</p>
+        <p>A força de atrito depende principalmente da natureza das superfícies e da força normal entre elas.</p>
+    </div>
+</div>
+
+<div class="question-block">
+    <div class="question">
+        <p>2. O que acontece com a força normal quando aumentamos a inclinação de um plano inclinado?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q19" value="A"> A) Aumenta</li>
+            <li><input type="radio" name="q19" value="B"> B) Diminui</li>
+            <li><input type="radio" name="q19" value="C"> C) Permanece constante</li>
+            <li><input type="radio" name="q19" value="D"> D) Depende da gravidade</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> B) Diminui</p>
+        <p>Quando a inclinação de um plano aumenta, a componente da força peso perpendicular ao plano (força normal) diminui.</p>
+    </div>
+
+    <!-- Energia Mecânica -->
+<div class="question-block">
+    <h3>Aula 09 - Energia Mecânica</h3>
+    <div class="question">
+        <p>1. Qual das opções a seguir representa a expressão correta para a energia mecânica total de um sistema?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q22" value="A"> A) Eₘ = K + U</li>
+            <li><input type="radio" name="q22" value="B"> B) Eₘ = F × d</li>
+            <li><input type="radio" name="q22" value="C"> C) Eₘ = m × g × h</li>
+            <li><input type="radio" name="q22" value="D"> D) Eₘ = K × U</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> A) Eₘ = K + U</p>
+        <p>A energia mecânica total de um sistema é a soma da energia cinética (K) e da energia potencial (U): <em>Eₘ = K + U</em>.</p>
+    </div>
+</div>
+
+<div class="question-block">
+    <div class="question">
+        <p>2. Um corpo de massa 2 kg é elevado a 5 metros de altura. Qual é a sua energia potencial gravitacional?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q23" value="A"> A) 10 J</li>
+            <li><input type="radio" name="q23" value="B"> B) 50 J</li>
+            <li><input type="radio" name="q23" value="C"> C) 100 J</li>
+            <li><input type="radio" name="q23" value="D"> D) 200 J</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> C) 100 J</p>
+        <p>A energia potencial gravitacional é dada por <em>U = m × g × h</em>. Assim, U = 2 kg × 10 m/s² × 5 m = 100 J.</p>
+    </div>
+</div>
+
+<!-- Teorema da Energia Cinética e Forças Não-Conservativas -->
+<div class="question-block">
+    <h3>Aula 10 - Teorema da Energia Cinética e Forças Não-Conservativas</h3>
+    <div class="question">
+        <p>1. O teorema da energia cinética afirma que o trabalho realizado sobre um objeto é igual a...</p>
+        <ul class="answers">
+            <li><input type="radio" name="q24" value="A"> A) A variação da sua energia cinética</li>
+            <li><input type="radio" name="q24" value="B"> B) O produto da sua velocidade e deslocamento</li>
+            <li><input type="radio" name="q24" value="C"> C) Sua energia potencial</li>
+            <li><input type="radio" name="q24" value="D"> D) A variação da sua energia potencial</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> A) A variação da sua energia cinética</p>
+        <p>O teorema da energia cinética afirma que o trabalho total realizado sobre um objeto é igual à variação da sua energia cinética.</p>
+    </div>
+</div>
+
+<div class="question-block">
+    <div class="question">
+        <p>2. Quando uma força não conservativa atua em um objeto, o que acontece com a energia mecânica total do sistema?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q25" value="A"> A) Aumenta</li>
+            <li><input type="radio" name="q25" value="B"> B) Diminui</li>
+            <li><input type="radio" name="q25" value="C"> C) Permanece constante</li>
+            <li><input type="radio" name="q25" value="D"> D) Depende da força</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> B) Diminui</p>
+        <p>Quando forças não conservativas, como o atrito, atuam, a energia mecânica total de um sistema diminui, pois parte da energia é transformada em outras formas, como calor.</p>
+    </div>
+</div>
+
+<!-- Potência e Rendimento -->
+<div class="question-block">
+    <h3>Aula 11 - Potência e Rendimento</h3>
+    <div class="question">
+        <p>1. A potência de uma máquina que realiza 500 J de trabalho em 10 segundos é:</p>
+        <ul class="answers">
+            <li><input type="radio" name="q26" value="A"> A) 50 W</li>
+            <li><input type="radio" name="q26" value="B"> B) 100 W</li>
+            <li><input type="radio" name="q26" value="C"> C) 200 W</li>
+            <li><input type="radio" name="q26" value="D"> D) 500 W</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> A) 50 W</p>
+        <p>A potência é dada por <em>P = W / t</em>, onde W é o trabalho e t é o tempo. Assim, P = 500 J / 10 s = 50 W.</p>
+    </div>
+</div>
+
+<div class="question-block">
+    <div class="question">
+        <p>2. Qual é a eficiência de uma máquina que realiza 600 J de trabalho útil ao consumir 1000 J de energia?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q27" value="A"> A) 40%</li>
+            <li><input type="radio" name="q27" value="B"> B) 60%</li>
+            <li><input type="radio" name="q27" value="C"> C) 80%</li>
+            <li><input type="radio" name="q27" value="D"> D) 90%</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> B) 60%</p>
+        <p>A eficiência é dada por <em>η = (W útil / W total) × 100%</em>. Assim, η = (600 J / 1000 J) × 100% = 60%.</p>
+    </div>
+</div>
+
+<!-- Impulso e Quantidade de Movimento -->
+<div class="question-block">
+    <h3>Aula 12 - Impulso e Quantidade de Movimento</h3>
+    <div class="question">
+        <p>1. O que representa o impulso de uma força?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q28" value="A"> A) O produto da força pelo tempo</li>
+            <li><input type="radio" name="q28" value="B"> B) O produto da massa pela aceleração</li>
+            <li><input type="radio" name="q28" value="C"> C) A variação da energia cinética</li>
+            <li><input type="radio" name="q28" value="D"> D) A força dividida pela distância</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> A) O produto da força pelo tempo</p>
+        <p>O impulso de uma força é o produto da força aplicada pelo intervalo de tempo durante o qual ela atua: <em>I = F × Δt</em>.</p>
+    </div>
+</div>
+
+<div class="question-block">
+    <div class="question">
+        <p>2. Qual é a quantidade de movimento de um objeto de 3 kg que se move com velocidade de 10 m/s?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q29" value="A"> A) 3 kg·m/s</li>
+            <li><input type="radio" name="q29" value="B"> B) 10 kg·m/s</li>
+            <li><input type="radio" name="q29" value="C"> C) 30 kg·m/s</li>
+            <li><input type="radio" name="q29" value="D"> D) 300 kg·m/s</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> C) 30 kg·m/s</p>
+        <p>A quantidade de movimento é dada por <em>p = m × v</em>. Logo, p = 3 kg × 10 m/s = 30 kg·m/s.</p>
+    </div>
+</div>
+
+<!-- Conservação da Quantidade de Movimento -->
+<div class="question-block">
+    <h3>Aula 13 - Conservação da Quantidade de Movimento</h3>
+    <div class="question">
+        <p>1. A conservação da quantidade de movimento é válida em sistemas...</p>
+        <ul class="answers">
+            <li><input type="radio" name="q30" value="A"> A) Com forças conservativas</li>
+            <li><input type="radio" name="q30" value="B"> B) Com forças dissipativas</li>
+            <li><input type="radio" name="q30" value="C"> C) Em que não há forças externas</li>
+            <li><input type="radio" name="q30" value="D"> D) Em que há atrito</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> C) Em que não há forças externas</p>
+        <p>A quantidade de movimento é conservada em sistemas isolados, ou seja, em sistemas nos quais não há atuação de forças externas.</p>
+    </div>
+</div>
+
+<div class="question-block">
+    <div class="question">
+        <p>2. Em uma colisão elástica, o que é conservado?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q31" value="A"> A) Somente a energia cinética</li>
+            <li><input type="radio" name="q31" value="B"> B) Somente a quantidade de movimento</li>
+            <li><input type="radio" name="q31" value="C"> C) A quantidade de movimento e a energia cinética</li>
+            <li><input type="radio" name="q31" value="D"> D) A energia potencial</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> C) A quantidade de movimento e a energia cinética</p>
+        <p>Em colisões elásticas, tanto a quantidade de movimento quanto a energia cinética são conservadas.</p>
+    </div>
+</div>
+
+<!-- Colisões -->
+<div class="question-block">
+    <h3>Aula 14 - Colisões</h3>
+    <div class="question">
+        <p>1. Em uma colisão inelástica, a energia cinética total do sistema...</p>
+        <ul class="answers">
+            <li><input type="radio" name="q32" value="A"> A) Aumenta</li>
+            <li><input type="radio" name="q32" value="B"> B) Diminui</li>
+            <li><input type="radio" name="q32" value="C"> C) Permanece constante</li>
+            <li><input type="radio" name="q32" value="D"> D) É transferida para a energia potencial</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> B) Diminui</p>
+        <p>Em colisões inelásticas, parte da energia cinética é transformada em outras formas de energia, como calor, resultando em uma diminuição da energia cinética total do sistema.</p>
+    </div>
+</div>
+
+<div class="question-block">
+    <div class="question">
+        <p>2. O que caracteriza uma colisão perfeitamente inelástica?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q33" value="A"> A) Os corpos se separam após a colisão</li>
+            <li><input type="radio" name="q33" value="B"> B) A energia potencial é totalmente conservada</li>
+            <li><input type="radio" name="q33" value="C"> C) Os corpos permanecem unidos após a colisão</li>
+            <li><input type="radio" name="q33" value="D"> D) A quantidade de movimento não é conservada</li>
+        </ul>
+    </div>
+
+    
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> C) Os corpos permanecem unidos após a colisão</p>
+        <p>Em uma colisão perfeitamente inelástica, os corpos permanecem unidos após a colisão, movendo-se juntos com a mesma velocidade.</p>
+    </div>
+</div>
+<!-- A Natureza Física das Curvas e as Curvas na Natureza -->
+<div class="question-block">
+    <h3>Aula 02 - A Natureza Física das Curvas e as Curvas na Natureza</h3>
+    <div class="question">
+        <p>1. O que caracteriza uma curva aberta?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q34" value="A"> A) A curva não forma um caminho fechado</li>
+            <li><input type="radio" name="q34" value="B"> B) A curva retorna ao ponto inicial</li>
+            <li><input type="radio" name="q34" value="C"> C) A curva possui simetria radial</li>
+            <li><input type="radio" name="q34" value="D"> D) A curva é reta</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> A) A curva não forma um caminho fechado</p>
+        <p>Curvas abertas não retornam ao ponto inicial, como o exemplo de uma parábola ou espiral.</p>
+    </div>
+</div>
+
+<div class="question-block">
+    <div class="question">
+        <p>2. Um exemplo de curva fechada na natureza é:</p>
+        <ul class="answers">
+            <li><input type="radio" name="q35" value="A"> A) A órbita de um planeta em torno de uma estrela</li>
+            <li><input type="radio" name="q35" value="B"> B) Uma onda eletromagnética</li>
+            <li><input type="radio" name="q35" value="C"> C) Uma montanha</li>
+            <li><input type="radio" name="q35" value="D"> D) A trajetória de um avião em linha reta</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> A) A órbita de um planeta em torno de uma estrela</p>
+        <p>A órbita de um planeta é um exemplo de curva fechada na natureza, pois o planeta volta ao ponto inicial em sua trajetória elíptica.</p>
+    </div>
+</div>
+
+<!-- Lançamento de Martelo -->
+<div class="question-block">
+    <h3>Aula 03 - Lançamento de Martelo</h3>
+    <div class="question">
+        <p>1. No lançamento de martelo, qual é a principal força que mantém o martelo em movimento circular?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q36" value="A"> A) Força centrípeta</li>
+            <li><input type="radio" name="q36" value="B"> B) Força gravitacional</li>
+            <li><input type="radio" name="q36" value="C"> C) Força centrífuga</li>
+            <li><input type="radio" name="q36" value="D"> D) Força de atrito</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> A) Força centrípeta</p>
+        <p>A força centrípeta mantém o martelo em movimento circular, puxando-o para o centro da trajetória enquanto o atleta gira.</p>
+    </div>
+</div>
+
+<div class="question-block">
+    <div class="question">
+        <p>2. O que acontece quando o martelo é solto durante o lançamento?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q37" value="A"> A) Ele continua em movimento circular</li>
+            <li><input type="radio" name="q37" value="B"> B) Ele segue uma trajetória retilínea tangente ao ponto de soltura</li>
+            <li><input type="radio" name="q37" value="C"> C) Ele para instantaneamente</li>
+            <li><input type="radio" name="q37" value="D"> D) Ele retorna ao ponto de origem</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> B) Ele segue uma trajetória retilínea tangente ao ponto de soltura</p>
+        <p>Quando o martelo é solto, ele segue uma trajetória retilínea tangente à curva de seu movimento circular, de acordo com a primeira lei de Newton.</p>
+    </div>
+</div>
+
+<!-- A Terra é Central, mas é tanto assim? -->
+<div class="question-block">
+    <h3>Aula 04 - A Terra é Central, mas é tanto assim?</h3>
+    <div class="question">
+        <p>1. No modelo geocêntrico de Ptolomeu, o que se acreditava sobre a Terra?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q38" value="A"> A) A Terra estava no centro do Universo</li>
+            <li><input type="radio" name="q38" value="B"> B) A Terra orbitava o Sol</li>
+            <li><input type="radio" name="q38" value="C"> C) O Sol estava no centro do Universo</li>
+            <li><input type="radio" name="q38" value="D"> D) A Terra girava ao redor da Lua</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> A) A Terra estava no centro do Universo</p>
+        <p>No modelo geocêntrico de Ptolomeu, acreditava-se que a Terra estava no centro do Universo e que todos os outros corpos celestes giravam ao seu redor.</p>
+    </div>
+</div>
+
+<div class="question-block">
+    <div class="question">
+        <p>2. Qual foi a principal contribuição de Copérnico para a visão do Sistema Solar?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q39" value="A"> A) Ele defendeu o modelo heliocêntrico, com o Sol no centro</li>
+            <li><input type="radio" name="q39" value="B"> B) Ele defendeu que a Terra era plana</li>
+            <li><input type="radio" name="q39" value="C"> C) Ele provou que a Terra é o maior planeta</li>
+            <li><input type="radio" name="q39" value="D"> D) Ele introduziu a ideia de órbitas elípticas</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> A) Ele defendeu o modelo heliocêntrico, com o Sol no centro</p>
+        <p>Copérnico foi responsável por introduzir o modelo heliocêntrico, em que o Sol estava no centro do Sistema Solar, e não a Terra.</p>
+    </div>
+</div>
+
+<!-- Kepler e os Movimentos dos Objetos Astronômicos -->
+<div class="question-block">
+    <h3>Aula 05 - Kepler e os Movimentos dos Objetos Astronômicos</h3>
+    <div class="question">
+        <p>1. Qual é a primeira lei de Kepler sobre o movimento dos planetas?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q40" value="A"> A) Os planetas se movem em órbitas circulares ao redor do Sol</li>
+            <li><input type="radio" name="q40" value="B"> B) Os planetas se movem em órbitas elípticas com o Sol em um dos focos</li>
+            <li><input type="radio" name="q40" value="C"> C) Os planetas permanecem em repouso em relação ao Sol</li>
+            <li><input type="radio" name="q40" value="D"> D) Os planetas se movem com velocidade constante</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> B) Os planetas se movem em órbitas elípticas com o Sol em um dos focos</p>
+        <p>A primeira lei de Kepler afirma que os planetas descrevem órbitas elípticas ao redor do Sol, que está em um dos focos da elipse.</p>
+    </div>
+</div>
+
+<div class="question-block">
+    <div class="question">
+        <p>2. De acordo com a terceira lei de Kepler, o quadrado do período orbital de um planeta é proporcional a:</p>
+        <ul class="answers">
+            <li><input type="radio" name="q41" value="A"> A) O cubo da sua distância média ao Sol</li>
+            <li><input type="radio" name="q41" value="B"> B) O cubo da sua massa</li>
+            <li><input type="radio" name="q41" value="C"> C) O quadrado da sua velocidade orbital</li>
+            <li><input type="radio" name="q41" value="D"> D) O quadrado da sua energia potencial</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> A) O cubo da sua distância média ao Sol</p>
+        <p>A terceira lei de Kepler afirma que o quadrado do período orbital de um planeta é proporcional ao cubo da sua distância média ao Sol.</p>
+    </div>
+</div>
+
+<!-- E assim se faz a luz... -->
+<div class="question-block">
+    <h3>Aula 10 - E assim se faz a luz...</h3>
+    <div class="question">
+        <p>1. A luz visível é parte de qual tipo de radiação?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q42" value="A"> A) Radiação gama</li>
+            <li><input type="radio" name="q42" value="B"> B) Radiação ultravioleta</li>
+            <li><input type="radio" name="q42" value="C"> C) Radiação infravermelha</li>
+            <li><input type="radio" name="q42" value="D"> D) Radiação eletromagnética</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> D) Radiação eletromagnética</p>
+        <p>A luz visível é parte do espectro da radiação eletromagnética, que inclui outros tipos de radiação como infravermelha e ultravioleta.</p>
+    </div>
+</div>
+
+<div class="question-block">
+    <div class="question">
+        <p>2. A teoria corpuscular da luz foi proposta por:</p>
+        <ul class="answers">
+            <li><input type="radio" name="q43" value="A"> A) Isaac Newton</li>
+            <li><input type="radio" name="q43" value="B"> B) Albert Einstein</li>
+            <li><input type="radio" name="q43" value="C"> C) Galileo Galilei</li>
+            <li><input type="radio" name="q43" value="D"> D) James Clerk Maxwell</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> A) Isaac Newton</p>
+        <p>Newton propôs a teoria corpuscular da luz, afirmando que a luz era composta de pequenos corpúsculos emitidos por fontes luminosas.</p>
+    </div>
+</div>
+
+<!-- A Estrela Evolui -->
+<div class="question-block">
+    <h3>Aula 11 - A Estrela Evolui</h3>
+    <div class="question">
+        <p>1. O que ocorre quando uma estrela esgota seu combustível de hidrogênio?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q44" value="A"> A) Ela se expande e se torna uma gigante vermelha</li>
+            <li><input type="radio" name="q44" value="B"> B) Ela explode imediatamente</li>
+            <li><input type="radio" name="q44" value="C"> C) Ela se contrai em um buraco negro</li>
+            <li><input type="radio" name="q44" value="D"> D) Ela forma uma nova estrela</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> A) Ela se expande e se torna uma gigante vermelha</p>
+        <p>Quando uma estrela esgota seu combustível de hidrogênio, ela começa a fundir hélio em seu núcleo e se expande, tornando-se uma gigante vermelha.</p>
+    </div>
+</div>
+
+<div class="question-block">
+    <div class="question">
+        <p>2. O que ocorre ao núcleo de uma estrela massiva ao final de sua vida?</p>
+        <ul class="answers">
+            <li><input type="radio" name="q45" value="A"> A) Ele se transforma em uma anã branca</li>
+            <li><input type="radio" name="q45" value="B"> B) Ele se torna um buraco negro ou uma estrela de nêutrons</li>
+            <li><input type="radio" name="q45" value="C"> C) Ele se fragmenta em planetas</li>
+            <li><input type="radio" name="q45" value="D"> D) Ele se evapora</li>
+        </ul>
+    </div>
+    <button class="reveal-answer">Mostrar Resposta</button>
+    <div class="login-form">
+        <input type="password" placeholder="Digite a senha">
+        <input type="submit" value="Acessar">
+    </div>
+    <div class="answer-detail">
+        <p><strong>Resposta Correta:</strong> B) Ele se torna um buraco negro ou uma estrela de nêutrons</p>
+        <p>Se a estrela for massiva o suficiente, seu núcleo colapsa e se transforma em uma estrela de nêutrons ou, em casos ainda mais extremos, um buraco negro.</p>
+    </div>
+</div>
+<div id="time">03:00:00</div>
+
+</div>
+<script>
+    let timerInterval;
+    let timeLeft = 180; // Tempo em segundos (10 minutos)
+
+    function startTimer() {
+        timerInterval = setInterval(function() {
+            timeLeft--;
+            const minutes = Math.floor(timeLeft / 60);
+            const seconds = timeLeft % 60;
+            document.getElementById('time').textContent = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+
+            if (timeLeft <= 0) {
+                clearInterval(timerInterval);
+                submitExam();
+            }
+        }, 1000);
+    }
+
+    function submitExam() {
+        clearInterval(timerInterval);
+        const questions = document.querySelectorAll('.question-block');
+        let correctAnswers = 0;
+        questions.forEach(question => {
+            const selectedAnswer = question.querySelector('input[type="radio"]:checked');
+            const correctAnswer = question.getAttribute('data-correct');
+            if (selectedAnswer && selectedAnswer.value === correctAnswer) {
+                correctAnswers++;
+            }
+        });
+        const totalQuestions = questions.length;
+        const resultDiv = document.getElementById('result');
+        resultDiv.textContent = `Você acertou ${correctAnswers} de ${totalQuestions} questões.`;
+        resultDiv.style.display = 'block';
+    }
+
+    // Inicia o cronômetro ao carregar a página
+    startTimer();
+</script>
+
+<script>
+    document.querySelectorAll('.reveal-answer').forEach((button, index) => {
+        button.addEventListener('click', function() {
+            const loginForm = this.nextElementSibling;
+            const answerDetail = loginForm.nextElementSibling;
+            loginForm.style.display = 'block';
+
+            loginForm.querySelector('input[type="submit"]').addEventListener('click', function(event) {
+                event.preventDefault();
+                const password = loginForm.querySelector('input[type="password"]').value;
+                if (password === 'senha123') {
+                    answerDetail.style.display = 'block';
+                    loginForm.style.display = 'none';
+                } else {
+                    alert('Senha incorreta');
+                }
+            });
+        });
+    });
+</script>
+
+</body>
+</html>
+

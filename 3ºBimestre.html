@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumos de Física e Astronomia - Ensino Médio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        .content {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .activity {
+            background-color: #eef;
+            padding: 15px;
+            margin-top: 15px;
+            border-left: 5px solid #007bff;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Resumos de Física e Astronomia - Ensino Médio</h1>
+
+        <div class="content">
+            <h2>Aula 02 - A natureza física das curvas e as curvas na natureza</h2>
+            <p>Essa aula explora como as curvas estão presentes em diversos fenômenos naturais, como em órbitas de planetas e trajetórias de projéteis, destacando sua relevância física.</p>
+            <div class="activity">
+                <h3>Atividade de Exemplo:</h3>
+                <p>Descreva um exemplo de curva natural que podemos observar no movimento de um planeta ao redor do sol.</p>
+                <button onclick="showAnswer1()">Ver Resposta</button>
+                <p id="answer1" style="display:none;">O movimento de um planeta ao redor do sol segue uma órbita elíptica, uma curva definida pelas leis de Kepler.</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>Aula 03 - Lançamento de martelo</h2>
+            <p>Essa aula explora o lançamento de martelo como exemplo de movimento circular e projétil, demonstrando a importância das forças centrípetas e da trajetória parabólica.</p>
+            <div class="activity">
+                <h3>Atividade de Exemplo:</h3>
+                <p>Calcule a velocidade tangencial de um martelo de 4 kg girado com um raio de 2 metros a uma velocidade angular de 6 rad/s.</p>
+                <button onclick="showAnswer2()">Ver Resposta</button>
+                <p id="answer2" style="display:none;">A velocidade tangencial é dada por v = ω * r = 6 * 2 = 12 m/s.</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>Aula 04 - A Terra é Central, mas é tanto assim?</h2>
+            <p>A discussão dessa aula gira em torno do modelo geocêntrico, comparando-o ao modelo heliocêntrico e como ele foi superado pelas descobertas de Copérnico e Kepler.</p>
+            <div class="activity">
+                <h3>Atividade de Exemplo:</h3>
+                <p>Explique por que o modelo heliocêntrico substituiu o modelo geocêntrico na astronomia moderna.</p>
+                <button onclick="showAnswer3()">Ver Resposta</button>
+                <p id="answer3" style="display:none;">O modelo heliocêntrico se mostrou mais consistente com as observações astronômicas, explicando melhor as órbitas dos planetas ao redor do sol.</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>Aula 05 - Kepler e os Movimentos dos Objetos Astronômicos</h2>
+            <p>Nesta aula, estudamos as três leis de Kepler e como elas descrevem o movimento dos planetas em torno do sol, explicando a órbita elíptica e a variação da velocidade orbital.</p>
+            <div class="activity">
+                <h3>Atividade de Exemplo:</h3>
+                <p>Qual é a principal característica da órbita de um planeta de acordo com a Primeira Lei de Kepler?</p>
+                <button onclick="showAnswer4()">Ver Resposta</button>
+                <p id="answer4" style="display:none;">De acordo com a Primeira Lei de Kepler, os planetas se movem em órbitas elípticas com o sol em um dos focos.</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>Aula 06 - Newton entra em cena de novo</h2>
+            <p>Newton adicionou às leis de Kepler a explicação de como a força gravitacional atua sobre os corpos celestes, unificando os movimentos na Terra e no céu sob a mesma lei da gravitação universal.</p>
+            <div class="activity">
+                <h3>Atividade de Exemplo:</h3>
+                <p>Qual é a importância da Lei da Gravitação Universal de Newton para a astronomia?</p>
+                <button onclick="showAnswer5()">Ver Resposta</button>
+                <p id="answer5" style="display:none;">A Lei da Gravitação Universal explica que todos os corpos com massa exercem forças gravitacionais entre si, sendo fundamental para descrever o movimento dos planetas.</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>Aula 07 - Nos sentimos atraídos sempre da mesma forma?</h2>
+            <p>Essa aula discute a natureza da gravidade e como ela afeta corpos de massas diferentes, enfatizando o conceito de campo gravitacional.</p>
+            <div class="activity">
+                <h3>Atividade de Exemplo:</h3>
+                <p>Se a Terra exerce uma força sobre a Lua, a Lua também exerce uma força sobre a Terra. Como essas forças se relacionam?</p>
+                <button onclick="showAnswer6()">Ver Resposta</button>
+                <p id="answer6" style="display:none;">De acordo com a Terceira Lei de Newton, as forças são iguais em magnitude e opostas em direção.</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>Aula 08 - Revisão Geral sobre Movimentos Circulares e Gravitação</h2>
+            <p>Nesta revisão, recapitulamos os conceitos de movimento circular, aceleração centrípeta e gravitação, destacando como eles se aplicam ao movimento dos planetas e satélites.</p>
+            <div class="activity">
+                <h3>Atividade de Exemplo:</h3>
+                <p>Qual é a fórmula da aceleração centrípeta e como ela se relaciona com o movimento circular?</p>
+                <button onclick="showAnswer7()">Ver Resposta</button>
+                <p id="answer7" style="display:none;">A aceleração centrípeta é dada por a = v²/r, e está sempre direcionada para o centro do círculo em movimentos circulares.</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>Aula 09 - Apocalipse ou Eclipse?</h2>
+            <p>Aqui discutimos as diferenças entre um apocalipse e um eclipse, focando em como os eclipses solares e lunares ocorrem e sua relevância na astronomia.</p>
+            <div class="activity">
+                <h3>Atividade de Exemplo:</h3>
+                <p>Explique a diferença entre um eclipse solar e um eclipse lunar.</p>
+                <button onclick="showAnswer8()">Ver Resposta</button>
+                <p id="answer8" style="display:none;">No eclipse solar, a Lua bloqueia a luz do Sol para a Terra. No eclipse lunar, a Terra bloqueia a luz do Sol para a Lua.</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>Aula 10 - E assim se faz a luz...</h2>
+            <p>Essa aula trata da natureza da luz, como ela é produzida e sua importância para a astronomia e a física.</p>
+            <div class="activity">
+                <h3>Atividade de Exemplo:</h3>
+                <p>O que é a luz e como ela é produzida em estrelas?</p>
+                <button onclick="showAnswer9()">Ver Resposta</button>
+                <p id="answer9" style="display:none;">A luz é uma forma de radiação eletromagnética, produzida nas estrelas por reações de fusão nuclear.</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>Aula 11 - A Estrela Evolui</h2>
+            <p>Nesta aula, exploramos as fases de evolução de uma estrela, desde sua formação até seu colapso final.</p>
+            <div class="activity">
+                <h3>Atividade de Exemplo:</h3>
+                <p>Quais são as principais fases da evolução de uma estrela?</p>
+                <button onclick="showAnswer10()">Ver Resposta</button>
+                <p id="answer10" style="display:none;">As fases incluem: formação da nebulosa, sequência principal, gigante vermelha, e, dependendo da massa, colapso em anã branca, estrela de nêutrons ou buraco negro.</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>Aula 12 - O que acontece quando o hidrogênio acaba?</h2>
+            <p>Essa aula trata do destino de uma estrela quando seu combustível de hidrogênio se esgota, levando a mudanças em sua estrutura e temperatura.</p>
+            <div class="activity">
+                <h3>Atividade de Exemplo:</h3>
+                <p>O que acontece com uma estrela como o Sol quando o hidrogênio em seu núcleo acaba?</p>
+                <button onclick="showAnswer11()">Ver Resposta</button>
+                <p id="answer11" style="display:none;">Quando o hidrogênio acaba, a estrela começa a queimar hélio, expandindo-se para formar uma gigante vermelha.</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>Aula 14 - E assim a Luz se acaba...</h2>
+            <p>Esta aula explora o colapso final das estrelas e o término de sua produção de luz, resultando em corpos estelares como buracos negros ou anãs brancas.</p>
+            <div class="activity">
+                <h3>Atividade de Exemplo:</h3>
+                <p>O que ocorre em uma supernova e qual é seu papel no ciclo de vida das estrelas?</p>
+                <button onclick="showAnswer12()">Ver Resposta</button>
+                <p id="answer12" style="display:none;">Uma supernova ocorre quando uma estrela massiva explode, espalhando elementos pesados pelo universo e, muitas vezes, resultando em um buraco negro ou estrela de nêutrons.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function showAnswer1() { document.getElementById('answer1').style.display = 'block'; }
+        function showAnswer2() { document.getElementById('answer2').style.display = 'block'; }
+        function showAnswer3() { document.getElementById('answer3').style.display = 'block'; }
+        function showAnswer4() { document.getElementById('answer4').style.display = 'block'; }
+        function showAnswer5() { document.getElementById('answer5').style.display = 'block'; }
+        function showAnswer6() { document.getElementById('answer6').style.display = 'block'; }
+        function showAnswer7() { document.getElementById('answer7').style.display = 'block'; }
+        function showAnswer8() { document.getElementById('answer8').style.display = 'block'; }
+        function showAnswer9() { document.getElementById('answer9').style.display = 'block'; }
+        function showAnswer10() { document.getElementById('answer10').style.display = 'block'; }
+        function showAnswer11() { document.getElementById('answer11').style.display = 'block'; }
+        function showAnswer12() { document.getElementById('answer12').style.display = 'block'; }
+    </script>
+</body>
+</html>
